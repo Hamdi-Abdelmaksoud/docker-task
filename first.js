@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-    res.send('Docker first lesson!')
+    res.send('Docker first  lesson!')
 })
 
 app.listen(port, () => {
